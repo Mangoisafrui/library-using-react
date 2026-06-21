@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background: var(--bg);
+  font-family: var(--sans);
+}
+
+/* 🔹 Card Styling */
+.book-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+}
+
+.book-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow);
+}
+
+/* 🔹 Book Image */
+.book-img {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+/* 🔹 Search Input */
+input.form-control {
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 25px;
+  padding: 10px 15px;
+  border: 1px solid var(--border);
+}
+
+/* 🔹 Buttons (match your theme) */
+.btn-outline-primary {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--accent);
+  color: white;
+}
+
+/* 🔹 Smooth text */
+h1, h2 {
+  color: var(--text-h);
+}
+
+/* 🔹 Container spacing fix */
+.container {
+  max-width: 1100px;
+}
